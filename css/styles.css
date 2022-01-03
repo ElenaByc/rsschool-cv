@@ -1,0 +1,72 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+
+    background-color: #EEEEEE;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+  
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    line-height: 64px;
+}
+  
+h3 {
+    font-size: 24px;
+    line-height: 32px;
+}
+  
+a {
+    text-decoration: none;
+    color: unset;
+}
+  
+.page-wrapper {
+    margin: 0 auto;
+}
+/* -------------- Header Navigation -------------- */
+.header a {
+    text-transform: uppercase;
+}
+
+.header a:hover {
+	color: #EEEEEE;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 20px 5%;
+    margin-bottom: 80px;
+
+	background-color: #30B7B1;
+}
+
+.header-avatar-img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.header-nav {
+    font-size: 14px;
+    letter-spacing: 0.2em;
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    column-gap: 20px;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
