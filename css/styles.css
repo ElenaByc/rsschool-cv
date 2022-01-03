@@ -22,7 +22,6 @@ h2 {
 }
   
 a {
-    text-decoration: none;
     color: unset;
 }
   
@@ -32,6 +31,7 @@ a {
 
 /* -------------- Header -------------- */
 .header a {
+	text-decoration: none;
     text-transform: uppercase;
 }
 
@@ -101,6 +101,14 @@ a {
 	margin: 10px 0 40px;
 }
 
+.main-section p:nth-child(5) {
+	margin: 10px 0 10px;
+}
+
+.main-section pre {
+	margin: 10px 0 40px;
+}
+  
 .main-section h2 {
 	margin: 10px 0;
 }
@@ -129,14 +137,19 @@ a {
 
 /* -------------- Footer -------------- */
 .footer {
+    padding: 10px 5%;
+	background-color: #30B7B1;
+}
+
+.footer-wrapper {
 	display: flex;
 	flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+	column-gap: 25%;
 
-    padding: 10px 5%;
-
-	background-color: #30B7B1;
+	margin: 0 auto;
+	max-width: 1400px;
 }
 
 .footer-year {
