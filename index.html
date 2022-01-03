@@ -31,14 +31,67 @@
                     </ul>
                 </nav>
                 <h1 class="header-name">Elena Bychenkova</h1>
-                <h2 class="header-title">Front-End Developer</h2>
+                <h2 class="header-title">Front End Developer</h2>
             </div>
         </header>
         <main class="main">
             <section class="main-section">
-
+                <h2 id="summary">Summary</h2>
+                <p>
+                    Passionate software engineer with strong mathematical background. 
+                    Over seven years of experience in the software industry in a variety of roles 
+                    with a range of technologies and several programming languages. 
+                    Excellent analytical, design, and problem-solving abilities. 
+                    Highly motivated and committed to delivering the highest standard of work. 
+                    Love to study and learn something new. 
+                    Currently studying front end development.
+                </p>
+                <h2 id="code">Code</h2>
+                <h3>Java</h3>
+                <pre><code>
+public class Fibonacci {
+    public static long fib (int n) {
+        if (n == 0) {
+            return 1;
+        }
+        if (n == 1) {
+            return 1;
+        }
+        long curr = 1;
+        long prev = 1;
+        for (int i = 3; i <= n; i++) {
+            curr = curr + prev; // i-th number
+            prev = curr - prev;
+        }
+        return curr;
+    }
+}
+                </code>
+                </pre>
+                <h2 id="projects">Projects</h2>
+                <ul>
+                    <li><a href="https://elenabyc.github.io/rsschool-cv/">RSS CV Project</a></li>
+                </ul>
+                <h2 id="education">Education</h2>
+                <ul>
+                    <li>Lomonosov Moscow State University (MSU), Moscow, Russia<br>
+                        MS in Mathematics, Applied Mathematics
+                    </li>
+                    <li>Las Positas College, Livermore, CA, USA<br>
+                        ESL (English as a Second Language) Program</li>
+                </ul>
             </section>
             <aside class="aside">
+                <h2 id="skills">Skills</h2> 
+                <ul>
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>ABAP</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                </ul>
 
             </aside>
         </main>

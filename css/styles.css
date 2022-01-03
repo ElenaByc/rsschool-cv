@@ -5,7 +5,7 @@ body {
     background-color: #EEEEEE;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, p {
     margin: 0;
 }
   
@@ -20,11 +20,6 @@ h2 {
 	letter-spacing: 0.2em;
 	font-size: 18px;
 }
-
-h3 {
-    font-size: 24px;
-    line-height: 32px;
-}
   
 a {
     text-decoration: none;
@@ -33,7 +28,9 @@ a {
   
 .page-wrapper {
     margin: 0 auto;
+	max-width: 1400px;
 }
+
 /* -------------- Header -------------- */
 .header a {
     text-transform: uppercase;
@@ -44,13 +41,12 @@ a {
 }
 
 .header {
-	/* position: relative; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
     padding: 20px 5%;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 
 	background-color: #30B7B1;
 }
@@ -86,7 +82,39 @@ a {
 }
 
 /* -------------- Main -------------- */
+.main {
+	display: flex;
+	flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
 
+    padding: 10px 5%;
+}
+
+.main-section {
+	width: 60%;
+}
+
+.main-section p {
+	margin: 10px 0 40px;
+}
+
+.main-section h2 {
+	margin: 10px 0;
+}
+
+.main-section ul {
+	margin-bottom: 40px;
+}
+
+.main-section li {
+	margin: 10px 0;
+}
+
+.aside {
+	width: 20%; 
+	/* padding-left: 10%; */
+}
 
 /* -------------- Footer -------------- */
 .footer {
