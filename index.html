@@ -7,8 +7,9 @@
     <title>CV</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -17,17 +18,21 @@
             <div class="header-avatar">
                 <img src="./assets/avatar.jpg" alt="avatar" class="header-avatar-img">
             </div>
-            <nav class="header-nav">
-                <ul class="header-nav-list">          
-                    <li><a href="#contacts">Contacts</a></li>
-                    <li><a href="#summary">Summary</a></li>
-                    <li><a href="#skills">Skills</a></li>          
-                    <li><a href="#code">Code</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#languages">Languages</a></li>
-                </ul>
-            </nav>
+            <div class="header-right">
+                <nav class="header-nav">
+                    <ul class="header-nav-list">          
+                        <li><a href="#contacts">Contacts</a></li>
+                        <li><a href="#summary">Summary</a></li>
+                        <li><a href="#skills">Skills</a></li>          
+                        <li><a href="#code">Code</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#languages">Languages</a></li>
+                    </ul>
+                </nav>
+                <h1 class="header-name">Elena Bychenkova</h1>
+                <h2 class="header-title">Front-End Developer</h2>
+            </div>
         </header>
         <main class="main">
             <section class="main-section">
@@ -38,9 +43,16 @@
             </aside>
         </main>
         <footer class="footer">
-            <div class="container footer-container">
-            <div>© 2022 <a href="https://github.com/elenaByc" class="github">ElenaByc</a></div>
-            <a href="https://rs.school/js/" class="rss"></a>
+            <div class="footer-year">&copy; 2022</div>
+            <div class="footer-github">
+                <a href="https://github.com/elenaByc">
+                    <img src="./assets/github-logo.png" alt="github-logo" class="footer-github-logo">
+                </a>
+            </div>
+            <div class="footer-rss">
+                <a href="https://rs.school/js/" class="rss">
+                    <img src="./assets/rs_school.svg" alt="rss-logo" class="footer-rss-logo">
+                </a>
             </div>
         </footer>
     </div>
