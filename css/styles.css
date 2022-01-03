@@ -37,6 +37,7 @@ a {
 .header a {
 	text-decoration: none;
     text-transform: uppercase;
+	transition: .3s;
 }
 
 .header a:hover {
@@ -95,7 +96,7 @@ a {
 
     padding: 10px 5%;
 	margin: 0 auto;
-	max-width: 1400px;
+	max-width: 1440px;
 }
 
 .main h2 {
@@ -165,7 +166,7 @@ a {
 	column-gap: 25%;
 
 	margin: 0 auto;
-	max-width: 1400px;
+	max-width: 1440px;
 }
 
 .footer-year {
