@@ -51,16 +51,13 @@
                 <pre><code>
 public class Fibonacci {
     public static long fib (int n) {
-        if (n == 0) {
-            return 1;
-        }
-        if (n == 1) {
+        if (n == 0 || n == 1) {
             return 1;
         }
         long curr = 1;
         long prev = 1;
         for (int i = 3; i <= n; i++) {
-            curr = curr + prev; // i-th number
+            curr = curr + prev;
             prev = curr - prev;
         }
         return curr;
@@ -82,6 +79,13 @@ public class Fibonacci {
                 </ul>
             </section>
             <aside class="aside">
+                <h2 id="contacts">Contacts</h2> 
+                <ul>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/elena-bychenkova/">linkedin.com/in/elena-bychenkova</a></li>
+                    <li>GitHub: <a href="https://github.com/elenaByc">ElenaByc</a></li>
+                    <li>Telegram: <a href="https://t.me/elenabyc">@ElenaByc</a></li>
+                    <li>Discord: Elena (@ElenaByc)</li>  
+                </ul>
                 <h2 id="skills">Skills</h2> 
                 <ul>
                     <li>Java</li>
@@ -92,7 +96,11 @@ public class Fibonacci {
                     <li>HTML5</li>
                     <li>CSS</li>
                 </ul>
-
+                <h2 id="languages">Languages</h2> 
+                <ul>
+                    <li>Russian - Native language</li>
+                    <li>English - Professional working proficiency</li>
+                </ul>
             </aside>
         </main>
         <footer class="footer">
