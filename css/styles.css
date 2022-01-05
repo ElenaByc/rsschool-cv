@@ -17,6 +17,7 @@ h1 {
 	font-family: 'The Nautigal', cursive;
     font-size: 80px;
     line-height: 90px;
+	text-align: center;
 }
   
 h2 {
@@ -45,15 +46,23 @@ a {
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-	column-gap: 10%;
-
-    padding: 20px 5%;
+    padding: 10px 5%;
     margin-bottom: 20px;
 
 	background-color: #30B7B1;
+}
+
+.header-wrapper {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+
+	flex-direction: row;
+	column-gap: 10%;
+
+	margin: 0 auto;
+	max-width: 1440px;
+	padding-bottom: 10px;
 }
 
 .header-avatar-img {
@@ -70,9 +79,16 @@ a {
 	row-gap: 20px;
 }
 
+.header h2 {
+	text-align: center;
+}
+
 .header-nav {
     font-size: 14px;
     letter-spacing: 0.2em;
+
+	margin: 0 auto;
+	max-width: 1440px;
 }
 
 .header-nav-list {
@@ -176,4 +192,14 @@ a {
 
 .footer-rss-logo {
 	width: 120px;
+}
+
+@media screen and (max-width: 740px) {
+	h1 {
+		font-size: 60px;
+		line-height: 70px;
+	}
+	.main {
+		flex-direction: column;
+	}
 }

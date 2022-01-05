@@ -7,6 +7,14 @@
     <title>CV</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+	<script src="js/jquery.slicknav.min.js"></script> 
+	<script> 
+		$(document).ready(function(){ 
+			$ ('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+		}); 
+	</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
@@ -15,24 +23,26 @@
 <body>
     <div class="page-wrapper">
         <header class="header">
-            <div class="header-avatar">
-                <img src="./assets/avatar.jpg" alt="avatar" class="header-avatar-img">
+            <div class="header-wrapper">
+                <div class="header-avatar">
+                    <img src="./assets/avatar.jpg" alt="avatar" class="header-avatar-img">
+                </div>
+                <div class="header-right">
+                    <h1 class="header-name">Elena Bychenkova</h1>
+                    <h2 class="header-title">Front End Developer</h2>
+                </div>
             </div>
-            <div class="header-right">
-                <nav class="header-nav">
-                    <ul class="header-nav-list">          
-                        <li><a href="#summary">Summary</a></li>      
-                        <li><a href="#code">Code</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#education">Education</a></li>
-                        <li><a href="#contacts">Contacts</a></li>
-                        <li><a href="#skills">Skills</a></li>    
-                        <li><a href="#languages">Languages</a></li>
-                    </ul>
-                </nav>
-                <h1 class="header-name">Elena Bychenkova</h1>
-                <h2 class="header-title">Front End Developer</h2>
-            </div>
+            <nav class="header-nav">
+                <ul class="header-nav-list">          
+                    <li><a href="#summary">Summary</a></li>      
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#skills">Skills</a></li>    
+                    <li><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
         </header>
         <main class="main">
             <section class="main-section">
