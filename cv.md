@@ -8,9 +8,8 @@ Passionate software engineer with strong mathematical background. Over seven yea
 
 ********* 
 
-## _Contacts_
-**Phone:** +1 111-123-4567  
-**E-mail:** email@gmail.com  
+## _Contacts_  
+**E-mail:** elena.bychenkova@gmail.com  
 **LinkedIn:** [Elena-Bychenkova](https://www.linkedin.com/in/elena-bychenkova/)  
 **GitHub:** [ElenaByc](https://github.com/ElenaByc)  
 **Telegram:** [@ElenaByc](https://t.me/elenabyc)  
@@ -29,6 +28,7 @@ Passionate software engineer with strong mathematical background. Over seven yea
 
 [![Codewars Profile](https://www.codewars.com/users/ElenaByc/badges/large)](https://www.codewars.com/users/ElenaByc)
 
+
 ********* 
 
 ## _Education_
@@ -40,8 +40,20 @@ ESL (English as a Second Language) Program
 
 ********* 
 
+## _Courses&Certificates_
+**THE ROLLING SCOPES SCHOOL  
+JS/FE PRE-SCHOOL 2022 (JAVASCRIPT)**  
+[<img src="./assets/rss_stage0.png" alt="RSS Stage0 Sertificate" width="300"/>](https://rs.school/js-stage0/)
+  
+**LinkedIn Learning
+HTML Essential Training**  
+[<img src="./assets/html.png" alt="HTML Sertificate" width="300"/>](https://www.linkedin.com/learning/html-essential-training-4)
+
+
+********* 
+
 ## _Languages_
 **Russian** Native language  
 **English** Professional working proficiency
 
-********* 
+
