@@ -23,11 +23,32 @@ Passionate software engineer with strong mathematical background. Over seven yea
 * Python
 * JavaScript
 * HTML5
-* CSS
+* CSS  
+  
+  
+********* 
+[![Codewars Profile](https://www.codewars.com/users/ElenaByc/badges/large)](https://www.codewars.com/users/ElenaByc)  
 
+## _Code Example_
+Java
+7 kyu Fibonacci kata from [codewars](https://www.codewars.com/kata/57a1d5ef7cb1f3db590002af)  
 
-[![Codewars Profile](https://www.codewars.com/users/ElenaByc/badges/large)](https://www.codewars.com/users/ElenaByc)
-
+```java
+public class Fibonacci {
+    public static long fib (int n) {
+        if (n == 0 || n == 1) {
+            return 1;
+        }
+        long curr = 1;
+        long prev = 1;
+        for (int i = 3; i <= n; i++) {
+            curr = curr + prev;
+            prev = curr - prev;
+        }
+        return curr;
+    }
+}
+``` 
 
 ********* 
 
