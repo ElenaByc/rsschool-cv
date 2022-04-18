@@ -179,7 +179,7 @@ a {
 	flex-direction: row;
     align-items: center;
     justify-content: center;
-	column-gap: 25%;
+	column-gap: 30%;
 
 	margin: 0 auto;
 	max-width: 1440px;
