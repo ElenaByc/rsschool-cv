@@ -1,211 +1,294 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url("../assets/fonts/SourceSansPro-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Bold';
+    src: url("../assets/fonts/SourceSansPro-SemiBold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'The Nautigal';
+    src: url("../assets/fonts/TheNautigal-Bold.ttf");
+    font-weight: 700;
+}
+
+:root {
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-light: #EEEEEE;
+    --color-primary: #30B7B1;
+}
+
 html {
-	scroll-behavior: smooth; 
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro';
     font-size: 16px;
 
-    background-color: #EEEEEE;
+    background-color: var(--color-light);
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
     margin: 0;
 }
-  
+
 h1 {
-	font-family: 'The Nautigal', cursive;
+    font-family: 'The Nautigal';
     font-size: 80px;
     line-height: 90px;
-	text-align: center;
+    text-align: center;
 }
-  
+
 h2 {
-	text-transform: uppercase;
-	letter-spacing: 0.2em;
-	font-size: 18px;
+    font-family: 'Source Sans Pro Bold';
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 18px;
 }
-  
+
 a {
     color: unset;
 }
-  
+
 .page-wrapper {
     margin: 0 auto;
 }
 
 /* -------------- Header -------------- */
-.header a {
-	text-decoration: none;
-    text-transform: uppercase;
-	transition: .3s;
-}
-
-.header a:hover {
-	color: #EEEEEE;
-}
 
 .header {
     padding: 10px 5%;
-    margin-bottom: 20px;
-
-	background-color: #30B7B1;
+    background-color: var(--color-primary);
 }
 
 .header-wrapper {
-	display: flex;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    column-gap: 10%;
 
-	flex-direction: row;
-	column-gap: 10%;
-
-	margin: 0 auto;
-	max-width: 1440px;
-	padding-bottom: 10px;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding-bottom: 10px;
 }
 
-.header-avatar-img {
-	width: 180px;
-	height: 180px;
-	border-radius: 50%;
+.header-avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
 }
 
-.header-right {
-	display: flex;
+.header-title {
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
-	flex-direction: column;	
-	row-gap: 20px;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.header a:hover {
+    color: var(--color-light);
 }
 
 .header h2 {
-	text-align: center;
+    text-align: center;
 }
 
 .header-nav {
     font-size: 14px;
     letter-spacing: 0.2em;
-
-	margin: 0 auto;
-	max-width: 1440px;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 .header-nav-list {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     column-gap: 20px;
-	flex-wrap: wrap;
-
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
 /* -------------- Main -------------- */
+
 .main {
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
 
-    padding: 10px 5%;
-	margin: 0 auto;
-	max-width: 1440px;
+    padding: 30px 5% 10px;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 .main h2 {
-	margin: 10px 0;
-	position: relative;
-	display: inline-block;
+    margin: 10px 0;
+    position: relative;
+    display: inline-block;
 }
 
 .main h2:after {
-	position: absolute;
-	content: "";
-	display: block;
-	width: 100%;
-	height: 3px;
-	background-color: #30B7B1;
-	border-radius: 5px;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #30B7B1;
+    border-radius: 5px;
 }
 
 .main-section {
-	width: 60%;
+    width: 60%;
 }
 
 .main-section p {
-	margin: 10px 0 40px;
+    margin: 10px 0 40px;
 }
 
 .main-section p:nth-child(5) {
-	margin: 10px 0 10px;
+    margin: 10px 0 10px;
 }
 
 .main-section pre {
-	margin: 10px 0;
+    margin: 10px 0;
 }
-  
+
 .main-section ul {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .main-section li {
-	margin: 10px 0;
+    margin: 10px 0;
 }
 
 .aside {
-	width: 25%; 
+    width: 25%;
 }
 
 .aside ul {
-	padding: 0 0 0 25px;
-	margin-bottom: 40px;
+    padding: 0 0 0 25px;
+    margin-bottom: 40px;
 }
 
-.aside li{
-	margin: 5px 0;
+.aside li {
+    margin: 5px 0;
 }
 
 /* -------------- Footer -------------- */
+
 .footer {
     padding: 10px 5%;
-	background-color: #30B7B1;
+    background-color: var(--color-primary);
 }
 
 .footer-wrapper {
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-	column-gap: 30%;
-
-	margin: 0 auto;
-	max-width: 1440px;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 .footer-year {
-	font-family: 'The Nautigal', cursive;
+    font-family: 'The Nautigal', cursive;
     font-size: 40px;
 }
 
-.footer-rss-logo {
-	width: 120px;
+.footer-github-logo {
+    width: 32px;
+    height: auto;
 }
 
+.footer-rss-logo {
+    width: 120px;
+    height: auto;
+}
+
+/* -------------- media -------------- */
+
 @media screen and (max-width: 740px) {
-	h1 {
-		font-size: 60px;
-		line-height: 70px;
-	}
-	.main {
-		flex-direction: column;
-	}
-	.main-section {
-		width: 100%;
-	}
-	.aside {
-		width: 100%;
-	}
+    h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .header-avatar {
+        width: 120px;
+        height: 120px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .main-section {
+        width: 100%;
+    }
+
+    .aside {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .header h2 {
+        font-size: 14px;
+        letter-spacing: 0.1em;
+    }
+
+    .header-avatar {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .header-avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .footer-rss-logo {
+        width: 80px;
+        height: auto;
+    }
 }
