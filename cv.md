@@ -4,7 +4,13 @@
 
 ********* 
 
-Passionate software engineer with strong mathematical background. Over seven years of experience in the software industry in a variety of roles with a range of technologies and several programming languages. Excellent analytical, design, and problem-solving abilities. Highly motivated and committed to delivering the highest standard of work. Love to learn something new. Currently studying front end development.
+Passionate software engineer with strong mathematical background.
+Over seven years of experience in the software industry in a variety of roles
+with a range of technologies and several programming languages.
+Excellent analytical, design, and problem-solving abilities.
+Highly motivated and committed to delivering the highest standard of work.
+Constant learner, love to learn something new.
+Currently focusing on front end development.
 
 ********* 
 
