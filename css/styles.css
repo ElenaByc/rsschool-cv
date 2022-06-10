@@ -165,6 +165,10 @@ a {
     border-radius: 5px;
 }
 
+.main a:hover {
+    color: var(--color-primary);
+}
+
 .main-section {
     width: 60%;
 }
