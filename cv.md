@@ -4,13 +4,13 @@
 
 ********* 
 
-Passionate software engineer with strong mathematical background.
+Passionate software engineer with a strong mathematical background.
 Over seven years of experience in the software industry in a variety of roles
 with a range of technologies and several programming languages.
 Excellent analytical, design, and problem-solving abilities.
 Highly motivated and committed to delivering the highest standard of work.
-Constant learner, love to learn something new.
-Currently focusing on front end development.
+A constant learner who loves to learn something new.
+Currently focusing on front-end development.
 
 ********* 
 
@@ -71,22 +71,22 @@ ESL (English as a Second Language) Program
 **THE ROLLING SCOPES SCHOOL  
 JS/FE PRE-SCHOOL 2022 (JAVASCRIPT)**  
   
-[<img src="./assets/images/rss_stage0.png" alt="RSS Stage0 Sertificate" width="350"/>](https://rs.school/js-stage0/)
+[<img src="./assets/images/rss_stage0.png" alt="RSS Stage0 Certificate" width="350"/>](https://rs.school/js-stage0/)
   
   
 **LinkedIn Learning  
 HTML Essential Training**  
-[<img src="./assets/images/html.png" alt="HTML Sertificate" width="350"/>](https://www.linkedin.com/learning/html-essential-training-4)
+[<img src="./assets/images/html.png" alt="HTML Certificate" width="350"/>](https://www.linkedin.com/learning/html-essential-training-4)
 
 
 **LinkedIn Learning  
 CSS Essential Training**  
-[<img src="./assets/images/css.png" alt="CSS Sertificate" width="350"/>](https://www.linkedin.com/learning/css-essential-training-3/)
+[<img src="./assets/images/css.png" alt="CSS Certificate" width="350"/>](https://www.linkedin.com/learning/css-essential-training-3/)
   
   
 **LinkedIn Learning  
 JavaScript Essential Training**  
-[<img src="./assets/images/js.png" alt="JavaScript Sertificate" width="350"/>](https://www.linkedin.com/learning/javascript-essential-training/)
+[<img src="./assets/images/js.png" alt="JavaScript Certificate" width="350"/>](https://www.linkedin.com/learning/javascript-essential-training/)
   
   
 **LinkedIn Learning  
@@ -96,8 +96,16 @@ React.js Essential Training**
 
 ********* 
 
+## _Projects_
+[Portfolio](https://elenabyc.github.io/photographer-portfolio/) - RSS Stage0 Project  
+[Memory Game](https://elenabyc.github.io/memory-game/) - RSS Stage0 Project  
+[Image Galery](https://elenabyc.github.io/image-galery/) - RSS Stage0 Project  
+[Shelter](https://elenabyc.github.io/shelter/pages/main/) - RSS Stage1 Project
+
+********* 
+
 ## _Languages_
-**Russian** Native language  
 **English** Professional working proficiency
+**Russian** Native language  
 
 
